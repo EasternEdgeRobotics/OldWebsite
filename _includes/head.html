@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>
+        {{ site.title }} - {{ page.title }}
+    </title>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}">
+    <!-- For IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.3.14/slick.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.3.15/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"/>
+	<link rel="stylesheet" type="text/css" href="{{ site.root }}css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="{{ site.root }}css/main.css"/>
+</head>
+<body>
+<div id="page" class=".container">
+    <header id="site-header">
+        <img src="{{ site.root }}images/eer-logo.png" alt="Eastern Edge Robotics"/>
+        <nav id="main-nav">
+            <a href="">Home</a>
+            <a href="">The Team</a>
+            <a href="">Mission</a>
+            <a href="">Achievements</a>
+            <a href="">Past Projects</a>
+        </nav>
+    </header>
+    <div id="page-content">

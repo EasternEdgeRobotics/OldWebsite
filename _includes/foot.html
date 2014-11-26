@@ -1,0 +1,21 @@
+		</div>
+		<div id="sponsor-banner">
+			<a class="mi" href="http://www.mi.mun.ca/">
+				<img src="{{ site.root }}images/mi-logo.png" alt="Fisheries and Marine Institute of Memorial University of Newfoundland"/>
+			</a>
+			<a class="mate" href="http://www.marinetech.org/rov-competition/">
+				<img src="{{ site.root }}images/mate-logo.png" alt="The Marine Advanced Technology Education (MATE) Center"/>
+			</a>
+			<a class="mun" href="http://www.mun.ca/">
+				<img src="{{ site.root }}images/mun-logo.png" alt="Memorial University of Newfoundland"/>
+			</a>
+		</div>
+		<footer id="site-footer">
+			<p>Design and content copyright &copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}</p>
+			<p>St. John's, Newfoundland, Canada.</p>
+		</footer>
+	</div>
+	{% for script in page.scripts %}
+		<script type="text/javascript" src="{{ site.root}}js/{{ script }}.js"></script>
+	{% endfor %}
+</body>

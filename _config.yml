@@ -1,0 +1,16 @@
+
+title: Eastern Edge Robotics
+author:
+    name: Eastern Edge Robotics
+
+description: "The website of the Eastern Edge Robotics team based out of Memorial University of Newfoundland."
+url: "http://www.easternedgerobotics.com"
+root: "/"
+
+timezone: "America/St_Johns"
+
+exclude:
+    - ".git"
+    - "config.rb"
+    - "node_modules"
+    - "package.json"

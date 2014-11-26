@@ -1,0 +1,25 @@
+---
+title: Team Members
+layout: default
+---
+{% capture year %}{{ 'now' | date: "%Y" }}{% endcapture %}
+
+<h2>Current Members</h2>
+<ul>
+{% for member in site.data.team %}
+{% capture years %}{{member.years}}{% endcapture %}
+{% if years contains year %}
+{% include member.html member=member %}
+{% endif %}
+{% endfor %}
+</ul>
+
+<h2>Past Members</h2>
+<ul>
+{% for member in site.data.team %}
+{% capture years %}{{member.years}}{% endcapture %}
+{% unless years contains year %}
+{% include member.html member=member %}
+{% endunless %}
+{% endfor %}
+</ul>

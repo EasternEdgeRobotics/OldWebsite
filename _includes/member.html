@@ -1,0 +1,48 @@
+<div class="member">
+	<div class="title">
+		<div class="years">
+		{% if include.member.years.size == 1%}
+			{{ include.member.years }}
+		{% else %}
+			{% for year in include.member.years %}
+				{% if forloop.last %}
+					{{ year }}
+				{% else %}
+					{{ year }},
+				{% endif %}
+			{% endfor %}
+		{% endif %}
+		</div>
+		<span class="name">{{ include.member.name }}</span>
+	</div>
+	<div class="roles">
+		{% if include.member.roles.size == 1 %}
+			<span class="primary">{{ include.member.roles }}</span>
+		{% else %}
+			{% for role in include.member.roles %}
+				{% if forloop.first %}
+					<span class="primary">{{ role }}</span>
+					<span class="past">Past:
+				{% elsif forloop.last != true %}
+					{{ role }},
+				{% else %}
+					{{ role }}
+				{% endif %}
+			{% endfor %}
+			</span>
+		{% endif %}
+	</div>
+	<div class="school">
+		Studying {{ include.member.program }} from
+		{% if include.member.school == 'MUN' %}
+			Memorial University of Newfoundland
+		{% elsif include.member.school == 'MI' %}
+			Fisheries and Marine Institute of Memorial University of Newfoundland
+		{% else %}
+			{{ include.member.school }}
+		{% endif %}
+	</div>
+	<div class="info">
+
+	</div>
+</div>

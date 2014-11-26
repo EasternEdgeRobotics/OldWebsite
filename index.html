@@ -1,0 +1,18 @@
+---
+title: Home
+layout: default
+scripts:
+    - slideshow
+---
+<h1>Welcome</h1>
+
+<div id="main-slide-show">
+    {% for image in site.data.image_slideshow %}
+    <div>
+        <img src="images/slideshow/{{ image }}" />
+    </div>
+    {% endfor %}
+</div>
+<p>Eastern Edge Robotics, founded in 2002, is a robotics team based out of the Fisheries and Marine Institute of Memorial University of Newfoundland that competes yearly in the the MATE ROV competition. Every year the team designs and builds an ROV to tackle missions modeled after real world ocean workplace scenarios.</p>
+<p>The team consists of between 20 and 30 post-secondary students of various disciplines including, biologists, graphical arts, computer and electronic engineering, mechanical engineering, ROV technicians and computer scientists. Along with building a working ROV, the team also designs a display poster, writes a technical report and presents to a panel of engineering.</p>
+<p>Our achievements include placing first place overall three times, and first place wins in the categories of engineering panel, poster presentation and technical reports. The team has competed everywhere from the bottom of NASA's Neutral Buoyancy Lab in Huston Texas to the world's largest flume tank in St. John's Newfoundland.</p>

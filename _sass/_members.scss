@@ -1,0 +1,35 @@
+div.member {
+	margin: 15px;
+	line-height: 1.3em;
+
+	div.title {
+		border-bottom: 1px solid $dark;
+		padding: 3px 0;
+		font-size: 18px;
+		color: $mono_light;
+		margin-bottom: 3px;
+	}
+
+	div.years {
+		float: right;
+		width: 400px;
+		text-align: right;
+		font-size: 14px;
+		font-weight: normal;
+		text-shadow: none;
+		color: $mid;
+	}
+
+	div.roles, div.school {
+		padding-left: 25px;
+		font-size: 16px;
+	}
+
+	div.roles .past {
+		color: $mid;
+		text-shadow: none;
+		margin-left: 15px;
+		font-size: 14px;
+	}
+
+}
