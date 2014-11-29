@@ -51,7 +51,6 @@ body {
 #page-content {
 	@include clearfix;
 	margin: 8px auto;
-	//border-radius: 0 0 5px 5px;
 	border: 1px solid $dark;
 	background: $base;
 	box-shadow: 0 5px 15px -5px $dark;
@@ -64,24 +63,26 @@ body {
 	h1 {
 		color: $light;
 		text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.8);
+		letter-spacing: 4px;
 		box-shadow: 0 5px 15px -5px $dark;
 		border-bottom: 2px solid $dark;
 		padding: 4px $content_padding 5px $content_padding + 25px;
 		margin: -$content_padding 0 -$content_padding 10px;
 		@include linear-gradient(to bottom, $comp_light 0%, $comp_dark 100%);
-		font-size: 28px;
+		font-size: 24px;
 		font-weight: bold;
+		font-variant: small-caps;
 	}
 
 	h2 {
-		color: $dark;
+		color: $light;
 		text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
-		box-shadow: 0 5px 15px -5px $dark;
-		border-bottom: 2px solid $dark;
+		box-shadow: 0 10px 10px -10px $dark;
+		border-bottom: 2px solid $mid;
 		padding: 4px $content_padding 5px $content_padding + 10px;
-		@include linear-gradient(to bottom, $mid 0%, $light 100%);
 		font-size: 20px;
-		font-weight: bold;
+		font-weight: normal;
+		letter-spacing: 2px;
 	}
 
 	p {

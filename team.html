@@ -3,8 +3,8 @@ title: Team Members
 layout: default
 ---
 {% capture year %}{{ 'now' | date: "%Y" }}{% endcapture %}
-
-<h2>Current Members</h2>
+<h1>Who is Eastern Edge Robotics?</h1>
+<h2>Current</h2>
 <ul>
 {% for member in site.data.team %}
 {% capture years %}{{member.years}}{% endcapture %}
@@ -13,8 +13,7 @@ layout: default
 {% endif %}
 {% endfor %}
 </ul>
-
-<h2>Past Members</h2>
+<h2>Past</h2>
 <ul>
 {% for member in site.data.team %}
 {% capture years %}{{member.years}}{% endcapture %}

@@ -1,20 +1,22 @@
 div.member {
-	margin: 15px;
+	margin: 10px 15px;
 	line-height: 1.3em;
+
 
 	div.title {
 		border-bottom: 1px solid $dark;
+		box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.3);
 		padding: 3px 0;
-		font-size: 18px;
+		font-size: 16px;
 		color: $mono_light;
-		margin-bottom: 3px;
+		margin-bottom: 5px;
 	}
 
 	div.years {
 		float: right;
 		width: 400px;
 		text-align: right;
-		font-size: 14px;
+		font-size: 12px;
 		font-weight: normal;
 		text-shadow: none;
 		color: $mid;
@@ -22,14 +24,14 @@ div.member {
 
 	div.roles, div.school {
 		padding-left: 25px;
-		font-size: 16px;
+		font-size: 14px;
 	}
 
 	div.roles .past {
 		color: $mid;
 		text-shadow: none;
 		margin-left: 15px;
-		font-size: 14px;
+		font-size: 12px;
 	}
 
 }

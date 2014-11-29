@@ -7,17 +7,19 @@
     - "CTO - Software"
   school: MUN
   program: B.Sc. Computer Science
+
 - name: Bethany Randell
   years:
     - 2010 to 2015
   roles:
-    - "Tool Designer"
+    - "CTO, Electronics"
     - "Tether Manager"
     - "Electrical Developer"
     - "CTO, Electrical and Software"
-    - "CTO, Electronics"
+    - "Tool Designer"
   school: MUN
   program: B.Eng. Electrical Engineering
+
 - name: William Glatt
   years:
     - 2010
