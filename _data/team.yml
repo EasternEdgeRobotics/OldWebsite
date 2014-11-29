@@ -3,10 +3,10 @@
     - 2013
     - 2014
   roles:
-    - "Software Developer"
     - "CTO - Software"
+    - "Software Developer"
   school: MUN
-  program: B.Sc. Computer Science
+  program: Computer Science
 
 - name: Bethany Randell
   years:
@@ -18,7 +18,18 @@
     - "CTO, Electrical and Software"
     - "Tool Designer"
   school: MUN
-  program: B.Eng. Electrical Engineering
+  program: Electrical Engineering
+
+- name: Kyle Doody
+  years:
+    - 2012 to 2015
+  roles:
+    - "Project Manager"
+    - "CEO"
+    - "Logistics Manager"
+    - "Tool Designer"
+  school: MUN
+  program: Mechanical Engineering
 
 - name: William Glatt
   years:
