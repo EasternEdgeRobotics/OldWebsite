@@ -1,14 +1,15 @@
+{% capture year %}{{ 'now' | date: "%Y"}}{% endcapture %}
 <div class="member">
 	<div class="title">
 		<div class="years">
 		{% if include.member.years.size == 1%}
-			{{ include.member.years }}
+			{{ include.member.years[0] | replace:'present',year }}
 		{% else %}
 			{% for year in include.member.years %}
 				{% if forloop.last %}
-					{{ year }}
+					{{ year | replace:'present',year }}
 				{% else %}
-					{{ year }},
+					{{ year | replace:'present',year }},
 				{% endif %}
 			{% endfor %}
 		{% endif %}
