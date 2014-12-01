@@ -10,19 +10,19 @@
 
 - name: Bethany Randell
   years:
-    - 2010 to 2015
+    - 2010 to present
   roles:
-    - "CTO, Electronics"
-    - "Tether Manager"
     - "Electrical Developer"
-    - "CTO, Electrical and Software"
+    - "CTO - Electronics"
+    - "CTO - Electrical and Software"
+    - "Tether Manager"
     - "Tool Designer"
   school: MUN
   program: Electrical Engineering
 
 - name: Kyle Doody
   years:
-    - 2012 to 2015
+    - 2012 to present
   roles:
     - "Project Manager"
     - "CEO"
@@ -31,12 +31,79 @@
   school: MUN
   program: Mechanical Engineering
 
-- name: William Glatt
+- name: Christian Samson
   years:
-    - 2010
-    - 2011
-    - 2014 to 2015
+    - present
   roles:
-    - "Tool Developer"
+    - "Electrical Developer"
   school: MI
-  program: B.Tech ROV
+  program: Underwater Vehicles
+
+- name: Nathan Ash
+  years:
+    - 2013 to present
+  roles:
+    - "CTO - Mechanical"
+    - "Chassis Design Lead"
+  school: MUN
+  program: Mechanical Engineering
+
+- name: Kaitlin Quinlan
+  years:
+    - 2012 to present
+  roles:
+    - "CTO - Electrical"
+    - "Electrical Developer"
+  school: MUN
+  program: Electrical Engineering
+
+- name: Christina Hamlyn
+  years:
+    - 2013 to present
+  roles:
+    - "Graphic Designer"
+    - "Marketing Advisor"
+  school: MUN
+  program: Visual Arts
+
+- name: Calvin Gregory
+  years:
+    - 2014 to present
+  roles:
+    - "CTO - Structural"
+  school: MUN
+  program: Mechanical Engineering
+
+- name: Coralie Brown
+  years:
+    - 2012 to present
+  roles:
+    - "Chief Marketing Officer"
+  school: MI
+  program: Underwater Vehicles
+
+- name: Stephen Whiffen
+  years:
+    - 2012 to present
+  roles:
+    - "Tool Designer"
+  school: MI
+  program: ROV Technician
+
+- name: Connor Whalen
+  years:
+    - 2013 to present
+  roles:
+    - "Software Developer"
+    - "Fabrication"
+  school: MUN
+  program: Computer Engineering
+
+- name: Erin Matthews
+  years:
+    - 2013 to present
+  roles:
+    - "Tether Manager"
+    - "Public Relations"
+  school: MUN
+  program: Ocean and Naval Architectural Engineering
