@@ -21,6 +21,11 @@
 	<link rel="stylesheet" type="text/css" href="{{ site.root }}css/main.css"/>
 </head>
 <body>
+{% if site.notice %}
+<div id="notice">
+	{{ site.notice }}
+</div>
+{% endif %}
 <div id="page" class=".container">
     <header id="site-header">
         <img src="{{ site.root }}images/eer-logo.png" alt="Eastern Edge Robotics"/>

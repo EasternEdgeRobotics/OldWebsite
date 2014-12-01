@@ -14,3 +14,5 @@ exclude:
     - "config.rb"
     - "node_modules"
     - "package.json"
+
+notice: This site is a work in progress. It may contain false data, errors and omissions.
