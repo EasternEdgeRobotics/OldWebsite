@@ -1,0 +1,22 @@
+---
+title: Where has Eastern Edge Robotics competed?
+layout: default
+---
+<h1>{{ page.title }}</h1>
+{% for mission in site.data.missions %}
+<div class="mission">
+	<div class="title">
+		<div class="year">{{ mission.year }}</div>
+		{{ mission.title }}
+	</div>
+	<div class="website">
+		{% if mission.link %}
+		<a href="{{ mission.link }}">Mission Description</a>
+		{% endif %}
+	</div>
+	<div class="host">
+		Hosted by <span class="university">{{ mission.host }}</span> in
+		<span class="city">{{ mission.location }}</span>
+	</div>
+</div>
+{% endfor %}

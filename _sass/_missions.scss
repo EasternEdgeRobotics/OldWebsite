@@ -1,0 +1,47 @@
+div.mission {
+	margin: 15px 15px;
+	line-height: 1.3em;
+	font-size: 15px;
+
+	div.title {
+		border-bottom: 1px solid $dark;
+		box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.3);
+		padding: 3px 0;
+		color: $light;
+		margin-bottom: 5px;
+	}
+
+	div.year {
+		float: right;
+		width: 75px;
+		text-align: right;
+		font-weight: normal;
+		text-shadow: none;
+		color: $mid;
+	}
+
+	div.host {
+		padding-left: 25px;
+		margin-left: 200px;
+		text-align: right;
+		font-size: 13px;
+		color: $mid;
+		span.university, span.city {
+			color: $mono_light;
+		}
+	}
+
+	div.website {
+		color: $mid;
+		text-shadow: none;
+		margin-left: 15px;
+		font-size: 12px;
+		text-align: left;
+		float: left;
+		width: 175px;
+		a {
+			color: $mono_light;
+		}
+	}
+
+}
