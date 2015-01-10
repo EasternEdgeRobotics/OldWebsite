@@ -1,0 +1,29 @@
+- name: Dwight Howse
+  years:
+    - 2002 to present
+  school: MI
+  degrees: M. Eng., M.B.A
+
+- name: Clar Button
+  years:
+    - 2002 to present
+  school: MI
+  degrees: B.Sc, B.Ed, M.Sc
+
+- name: Paul Brett
+  years:
+    - 2014 to present
+  school: MI
+  degrees: B.Sc (Hons), B.Ed Post Secondary, M.Sc
+
+- name: Tom Donovan
+  years:
+    - 2002 to 2013
+  school: MI
+  degrees: B.A., B.Ed., Dip. Tech. Ed.
+
+- name: Jai Ragunathan
+  years:
+    - 2014 to present
+  school: MI
+  degrees: B.Eng., B.Ed Post Secondary, M.Eng

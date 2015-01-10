@@ -34,7 +34,12 @@
 		{% endif %}
 	</div>
 	<div class="school">
+		{% if include.member.program %}
 		Studying {{ include.member.program }} from
+		{% endif %}
+		{% if include.member.degrees %}
+		<div class="degrees">{{ include.member.degrees }}</div>
+		{% endif %}
 		{% if include.member.school == 'MUN' %}
 			Memorial University of Newfoundland
 		{% elsif include.member.school == 'MI' %}

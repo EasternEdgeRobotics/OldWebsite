@@ -1,6 +1,11 @@
 div.member {
 	margin: 10px 15px;
 	line-height: 1.3em;
+	color: $mid;
+
+	span.highlight {
+		color: $mono_light;
+	}
 
 
 	div.title {
@@ -8,7 +13,7 @@ div.member {
 		box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.3);
 		padding: 3px 0;
 		font-size: 16px;
-		color: $mono_light;
+		color: $light;
 		margin-bottom: 5px;
 	}
 
@@ -25,6 +30,10 @@ div.member {
 	div.roles, div.school {
 		padding-left: 25px;
 		font-size: 14px;
+	}
+
+	div.roles .primary {
+		color: $shade_highlight;
 	}
 
 	div.roles .past {
