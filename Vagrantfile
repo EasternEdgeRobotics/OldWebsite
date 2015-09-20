@@ -12,6 +12,7 @@ Vagrant.configure(2) do |config|
         website.vm.box = "ubuntu/vivid64"
         website.vm.synced_folder ".", "/vagrant", disabled: true
         website.vm.synced_folder ".", "/home/vagrant/easternedgerobotics.github.io"
+        website.vm.network "forwarded_port", guest: 4000, host: 4000
         website.vm.provision "shell", privileged: false, inline: $script
         website.vm.provider "virtualbox" do |virtualbox|
             virtualbox.customize ["modifyvm", :id, "--cpus", number_of_cpus]
