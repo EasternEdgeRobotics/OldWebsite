@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Eastern Edge</title>
+	<link rel="stylesheet" href="../style/style.css" type="text/css" media="screen, projection" />
+
+	<div id="banner">
+	<table>
+		<tr>
+			<td><img src="../images/eer-logo-2lines.png" alt="Eastern Edge Robotics" width=180 height=80 />
+			<td><a href="../about/about.html"><u>About</u></a></td>
+			<td><a href="../team/team.html"><u>Team</u></a></td>
+			<td><a href="../missions/missions.html"><u>Missions</u></a></td>
+			<td></td>
+		</tr>
+	</table>
+	<hr>
+	</div>
+
+      <script type = "text/javascript">
+          var images = [], x = -1;
+          images[0] = "../images/eer-logo-old-paulina.jpg";
+          images[1] = "../images/ee-team-2014.jpg";
+
+          function displayNextImage() {
+              x = (x === images.length - 1) ? 0 : x + 1;
+              document.getElementById("imgs").src = images[x];
+          }
+
+          function startTimer() {
+              setInterval(displayNextImage, 3000);
+          }
+      </script>
+</head>
+
+<body onload = "startTimer()">
+	<div class="frontpagetext">
+	The Eastern Edge Robotics team is an award-winning underwater robotics team of Memorial University of Newfoundland, located in the province of Newfoundland and Labrador, Canada.
+	</div>
+
+	<br>
+
+	<img id="imgs" src="../images/eer-logo-old-paulina.jpg" width=700 height=350/>
+	<br>
+	
+	<p>
+	Connect with us on <a href="https://www.facebook.com/easternedgerobotics"><u>Facebook!</u></a>
+	</p>
+
+</body>
+
+</html>
