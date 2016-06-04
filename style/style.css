@@ -58,8 +58,8 @@ footer, header, hgroup, menu, nav, section {display: block}
 }
 
 .navbar-brand>img {
- 	width: 100px;
- 	height: 30px;
+ 	width: 80px;
+ 	height: 35px;
 }
 
 body {
@@ -72,10 +72,6 @@ body {
 table {
 	background-color: #2ECCFA;
 	border-spacing: 1.5em 0em;
-}
-.frontpagetext {
-	text-align: center;
-	font-size: 18px;
 }
 .text {
 	margin-left: 3em; 
