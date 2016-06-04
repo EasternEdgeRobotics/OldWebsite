@@ -3,50 +3,103 @@
 
 <head>
 	<title>Eastern Edge</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles -->
 	<link rel="stylesheet" href="style/style.css" type="text/css" media="screen, projection" />
 
-	<div id="banner">
-	<table>
-		<tr>
-			<td><img src="images/eer-logo-2lines.png" alt="Eastern Edge Robotics" width=180 height=80 />
-			<td><a href="about.html"><u>About</u></a></td>
-			<td><a href="team.html"><u>Team</u></a></td>
-			<td><a href="missions.html"><u>Missions</u></a></td>
-			<td></td>
-		</tr>
-	</table>
-	<hr>
-	</div>
-
-      <script type = "text/javascript">
-          var images = [], x = -1;
-          images[0] = "images/eer-logo-old-paulina.jpg";
-          images[1] = "images/ee-team-2014.jpg";
-
-          function displayNextImage() {
-              x = (x === images.length - 1) ? 0 : x + 1;
-              document.getElementById("imgs").src = images[x];
-          }
-
-          function startTimer() {
-              setInterval(displayNextImage, 3000);
-          }
-      </script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 
-<body onload = "startTimer()">
-	<div class="frontpagetext">
-	The Eastern Edge Robotics team is an award-winning underwater robotics team of Memorial University of Newfoundland, located in the province of Newfoundland and Labrador, Canada.
-	</div>
+<body>
+	<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+		<div class="container">
+	    	<div class="navbar-header">
+	     		<a class="navbar-brand"><img src="images/eer-logo-2lines.png" alt="Eastern Edge Robotics"</a>
+	    	</div>
+	    	<div id="navbar" class="navbar-collapse collapse">
+	      		<ul class="nav navbar-nav">
+	        		<li class="active"><a href="index.html">Home</a></li>
+	        		<li><a href="about.html">About</a></li>
+	        		<li><a href="team.html">Team</a></li>
+	        		<li><a href="missions.html">Missions</a></li>
+	      		</ul>
+	    	</div><!--/.nav-collapse -->
+	  	</div>
+	</nav>
 
-	<br>
+    <!-- Carousel
+    ================================================== -->
+    <div id="eerCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#eerCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#eerCarousel" data-slide-to="1"></li>
+  </ol>
 
-	<img id="imgs" src="images/eer-logo-old-paulina.jpg" width=700 height=350/>
-	<br>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/eer-logo-old-paulina.jpg" alt="Old Paulina Logo">
+      <div class="carousel-caption">
+        <p>Connect with us on <a href="https://www.facebook.com/easternedgerobotics"><u>Facebook!</u></a></p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="images/hands-notebook.jpg" alt="Hard at work">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#eerCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#eerCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <!--<img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140"> -->
+          <h2>A Day in the Life of EER</h2>
+          <p>EER meets at least weekly.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <h2>EER Goes to NASA</h2>
+          <p>This year's MATE ROV competition is in Houston</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <h2>Meet Our Team</h2>
+          <p></p>
+          <p><a class="btn btn-default" href="team.html" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p class="pull-left">&copy; 2016 Eastern Edge Robotics </p>
+      </footer>
+
+    </div><!-- /.container -->
+
 	
-	<p>
-	Connect with us on <a href="https://www.facebook.com/easternedgerobotics"><u>Facebook!</u></a>
-	</p>
 
 </body>
 
